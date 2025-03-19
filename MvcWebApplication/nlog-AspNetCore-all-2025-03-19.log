@@ -1,0 +1,20 @@
+2025-03-19 12:36:58.4866|0|DEBUG|MvcWebApplication.Program|init main 
+2025-03-19 12:37:00.0375|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2025-03-19 12:37:00.0375|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2025-03-19 12:37:00.1190|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2025-03-19 12:37:00.1190|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2025-03-19 12:37:00.1190|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\MvcWebApplication 
+2025-03-19 12:37:01.1195|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-03-19 12:37:01.1576|0|DEBUG|MvcWebApplication.ViewFunctions.HomeViewFunctions|NLog injected into HomeViewFunctions 
+2025-03-19 12:37:01.1576|0|DEBUG|MvcWebApplication.Controllers.HomeController|NLog injected into HomeController 
+2025-03-19 12:37:01.1576|0|INFO|MvcWebApplication.Controllers.HomeController|Index was called 
+2025-03-19 12:40:36.5247|0|DEBUG|MvcWebApplication.Program|init main 
+2025-03-19 12:40:37.6580|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2025-03-19 12:40:37.6580|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2025-03-19 12:40:37.6910|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2025-03-19 12:40:37.6910|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2025-03-19 12:40:37.6910|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\MvcWebApplication 
+2025-03-19 12:40:38.4122|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-03-19 12:40:38.4391|0|DEBUG|MvcWebApplication.ViewFunctions.HomeViewFunctions|NLog injected into HomeViewFunctions 
+2025-03-19 12:40:38.4391|0|DEBUG|MvcWebApplication.Controllers.HomeController|NLog injected into HomeController 
+2025-03-19 12:40:38.4391|0|INFO|MvcWebApplication.Controllers.HomeController|Index was called 

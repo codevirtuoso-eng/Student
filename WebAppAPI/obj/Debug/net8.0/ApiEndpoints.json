@@ -1,0 +1,248 @@
+[
+  {
+    "ContainingType": "WebAppAPI.Controllers.MenuListingsController",
+    "Method": "CreateMenuListing",
+    "RelativePath": "api/MenuListings/CreateMenuListing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuListingCreateRequestDTO",
+        "Type": "SharedLibrary.DTO.MenuListing.MenuListingCreateRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.MenuListingsController",
+    "Method": "DeleteMenuListing",
+    "RelativePath": "api/MenuListings/DeleteMenuListing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuListingDeleteRequestDTO",
+        "Type": "SharedLibrary.DTO.MenuListing.MenuListingDeleteRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.MenuListingsController",
+    "Method": "GetMenuListing",
+    "RelativePath": "api/MenuListings/GetMenuListing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuListingGetRequestDTO",
+        "Type": "SharedLibrary.DTO.MenuListing.MenuListingGetRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.MenuListingsController",
+    "Method": "GetMenuListings",
+    "RelativePath": "api/MenuListings/GetMenuListings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuListingSearchRequestDTO",
+        "Type": "SharedLibrary.DTO.MenuListing.MenuListingSearchRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.MenuListingsController",
+    "Method": "UpdateMenuListing",
+    "RelativePath": "api/MenuListings/UpdateMenuListing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuListingUpdateRequestDTO",
+        "Type": "SharedLibrary.DTO.MenuListing.MenuListingUpdateRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Apis.OrdersController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Orders/CreateOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderCreateRequestDTO",
+        "Type": "SharedLibrary.DTO.Order.OrderCreateRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Apis.OrdersController",
+    "Method": "FreeTestAlive",
+    "RelativePath": "api/Orders/FreeTestAlive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Apis.OrdersController",
+    "Method": "GetOrderDetails",
+    "RelativePath": "api/Orders/GetOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderGetRequestDTO",
+        "Type": "SharedLibrary.DTO.Order.OrderGetRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Apis.OrdersController",
+    "Method": "GetOrders",
+    "RelativePath": "api/Orders/GetOrders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderSearchRequestDTO",
+        "Type": "SharedLibrary.DTO.Order.OrderSearchRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Apis.OrdersController",
+    "Method": "SecuredTestAlive",
+    "RelativePath": "api/Orders/SecuredTestAlive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Users/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.UsersController",
+    "Method": "GetUserClaims",
+    "RelativePath": "api/Users/GetUserClaims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.UsersController",
+    "Method": "GetUserRoles",
+    "RelativePath": "api/Users/GetUserRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestDTO",
+        "Type": "SharedLibrary.DTO.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.ShoppingCartsController",
+    "Method": "CreateShoppingCart",
+    "RelativePath": "CreateShoppingCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.ShoppingCartsController",
+    "Method": "EmptyShoppingCart",
+    "RelativePath": "EmptyShoppingCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.ShoppingCartsController",
+    "Method": "GetShoppingCart",
+    "RelativePath": "GetShoppingCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAPI.Controllers.ShoppingCartsController",
+    "Method": "RemoveShoppingCartItem",
+    "RelativePath": "RemoveShoppingCartItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

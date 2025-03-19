@@ -1,0 +1,17 @@
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\bin\Debug\net8.0\DatabaseAccess.deps.json
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\bin\Debug\net8.0\DatabaseAccess.runtimeconfig.json
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\bin\Debug\net8.0\DatabaseAccess.dll
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\bin\Debug\net8.0\DatabaseAccess.pdb
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\bin\Debug\net8.0\SharedLibrary.dll
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\bin\Debug\net8.0\SharedLibrary.pdb
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\DatabaseAccess.csproj.AssemblyReference.cache
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\DatabaseAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\DatabaseAccess.AssemblyInfoInputs.cache
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\DatabaseAccess.AssemblyInfo.cs
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\DatabaseAccess.csproj.CoreCompileInputs.cache
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\Database.3C889C45.Up2Date
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\DatabaseAccess.dll
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\refint\DatabaseAccess.dll
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\DatabaseAccess.pdb
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\DatabaseAccess.genruntimeconfig.cache
+C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\DatabaseAccess\obj\Debug\net8.0\ref\DatabaseAccess.dll
