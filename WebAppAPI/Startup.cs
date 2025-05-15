@@ -137,6 +137,14 @@ namespace WebAppAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app)
         {
+            // --- Auto-apply EF Core migrations to ensure tables exist ---
+            using (var scope = app.ApplicationServices.CreateScope())
+            {
+                var db = scope.ServiceProvider.GetRequiredService<DatabaseAccess.Data.Context.MainAppDbContext>();
+                db.Database.Migrate();
+            }
+            // ----------------------------------------------------------
+
             if (_env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
