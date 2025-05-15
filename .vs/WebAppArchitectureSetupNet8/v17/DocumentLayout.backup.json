@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jscha\\OneDrive - Metropolitan Community College\\spring_25\\csharp_III\\module_1\\WebAppArchitectureSetupNet8\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{772D2B4C-5F4B-4F4A-A26A-C9556DDA2AAD}|SharedLibrary\\SharedLibrary.csproj|c:\\users\\jscha\\onedrive - metropolitan community college\\spring_25\\csharp_iii\\module_1\\webapparchitecturesetupnet8\\sharedlibrary\\dto\\shoppingcart\\shoppingcartcreaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{772D2B4C-5F4B-4F4A-A26A-C9556DDA2AAD}|SharedLibrary\\SharedLibrary.csproj|solutionrelative:sharedlibrary\\dto\\shoppingcart\\shoppingcartcreaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShoppingCartCreateRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jscha\\OneDrive - Metropolitan Community College\\spring_25\\csharp_III\\module_1\\WebAppArchitectureSetupNet8\\SharedLibrary\\DTO\\ShoppingCart\\ShoppingCartCreateRequestDTO.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\DTO\\ShoppingCart\\ShoppingCartCreateRequestDTO.cs",
+              "ToolTip": "C:\\Users\\jscha\\OneDrive - Metropolitan Community College\\spring_25\\csharp_III\\module_1\\WebAppArchitectureSetupNet8\\SharedLibrary\\DTO\\ShoppingCart\\ShoppingCartCreateRequestDTO.cs*",
+              "RelativeToolTip": "SharedLibrary\\DTO\\ShoppingCart\\ShoppingCartCreateRequestDTO.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T19:59:41.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

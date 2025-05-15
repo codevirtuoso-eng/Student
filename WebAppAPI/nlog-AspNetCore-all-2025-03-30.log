@@ -1,0 +1,4 @@
+2025-03-30 14:49:43.6779|0|DEBUG|WebAppAPI.Program|init main 
+2025-03-30 14:49:44.9965|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2025-03-30 14:49:44.9992|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2025-03-30 14:49:44.9992|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\WebAppAPI 

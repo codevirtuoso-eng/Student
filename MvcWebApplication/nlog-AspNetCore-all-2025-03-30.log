@@ -1,0 +1,10 @@
+2025-03-30 14:49:41.7710|0|DEBUG|MvcWebApplication.Program|init main 
+2025-03-30 14:49:43.1678|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2025-03-30 14:49:43.1717|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2025-03-30 14:49:43.1935|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2025-03-30 14:49:43.1935|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2025-03-30 14:49:43.1935|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jscha\OneDrive - Metropolitan Community College\spring_25\csharp_III\module_1\WebAppArchitectureSetupNet8\MvcWebApplication 
+2025-03-30 14:49:44.7987|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-03-30 14:49:44.8283|0|DEBUG|MvcWebApplication.ViewFunctions.HomeViewFunctions|NLog injected into HomeViewFunctions 
+2025-03-30 14:49:44.8283|0|DEBUG|MvcWebApplication.Controllers.HomeController|NLog injected into HomeController 
+2025-03-30 14:49:44.8283|0|INFO|MvcWebApplication.Controllers.HomeController|Index was called 
