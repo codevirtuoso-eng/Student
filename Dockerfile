@@ -1,21 +1,16 @@
 # Build stage
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 
-# Copy project files
-COPY MvcWebApplication/*.csproj ./MvcWebApplication/
-RUN dotnet restore ./MvcWebApplication/MvcWebApplication.csproj
-
-# Copy everything and build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
 COPY . .
-WORKDIR /app/MvcWebApplication
-RUN dotnet publish -c Release -o /out MvcWebApplication.csproj
+WORKDIR /src/MvcWebApplication
+RUN dotnet restore
+RUN dotnet publish -c Release -o /app/out
 
 # Runtime stage
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
-COPY --from=build /out .
-
-# Set environment variable and entry point
-ENV ASPNETCORE_URLS=http://+:${PORT}
-ENTRYPOINT ["dotnet", "/out/MvcWebApplication.dll"]
+COPY --from=build /app/out ./
+ENTRYPOINT ["dotnet", "MvcWebApplication.dll"]
