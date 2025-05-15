@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -47,6 +47,38 @@ namespace WebAppAPI.Controllers
 				return StatusCode(StatusCodes.Status500InternalServerError, responseObject);
 			}
 		}
+
+		// --- BEGIN: TEMPORARY DEMO USER SEED ENDPOINT ---
+		[AllowAnonymous]
+		[HttpPost]
+		[Route("SeedDemoUser")]
+		public async Task<IActionResult> SeedDemoUser()
+		{
+			var userName = "demo";
+			var userPassword = "demo";
+
+			// Check if user already exists
+			var allUsers = await _usersFunction.GetAllUsers();
+			if (allUsers.Any(u => u.UserName == userName))
+				return Ok("Demo user already exists!");
+
+			// Get the DbContext
+			var dbContext = (DatabaseAccess.Data.Context.MainAppDbContext)HttpContext.RequestServices.GetService(typeof(DatabaseAccess.Data.Context.MainAppDbContext));
+			if (dbContext == null)
+				return StatusCode(500, "DbContext not available");
+
+			var newUser = new DatabaseAccess.Data.EntityModels.AspNetUserDAO
+			{
+				Id = Guid.NewGuid().ToString(),
+				UserName = userName,
+				UserPassword = userPassword
+			};
+			dbContext.AspNetUsers.Add(newUser);
+			await dbContext.SaveChangesAsync();
+
+			return Ok("Demo user created: demo/demo");
+		}
+		// --- END: TEMPORARY DEMO USER SEED ENDPOINT ---
 
 		[Authorize(Roles = "User, Admin")] // prefer to use enums, but requires custom attribute
 		[HttpGet]
