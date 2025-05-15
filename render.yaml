@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: student-api
+    env: docker
+    rootDir: .
+    dockerfilePath: ./Dockerfile.api
+    plan: free
+
+  - type: web
+    name: student-frontend
+    env: docker
+    rootDir: .
+    dockerfilePath: ./Dockerfile.frontend
+    plan: free
