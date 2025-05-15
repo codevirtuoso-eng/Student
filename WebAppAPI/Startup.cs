@@ -79,8 +79,19 @@ namespace WebAppAPI
 
             var rootPath = _env.ContentRootPath;
 
-            // Code trick to handle local database stored within the solution
-            string conn = Configuration.GetConnectionString("MainConnection");
+            // Load the connection string using the correct key ("DefaultConnection").
+            // Allow an environment variable override (for Docker/cloud deploys).
+            string conn = Configuration.GetConnectionString("DefaultConnection");
+
+            // Try environment variable override (common for Docker/cloud: "DATABASE_URL" or "DB_CONNECTION_STRING")
+            var envConn = System.Environment.GetEnvironmentVariable("DATABASE_URL") 
+                          ?? System.Environment.GetEnvironmentVariable("DB_CONNECTION_STRING") 
+                          ?? System.Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection");
+            if (!string.IsNullOrEmpty(envConn))
+            {
+                conn = envConn;
+            }
+
             if (conn.Contains("%CONTENTROOTPATH%"))
             {
                 conn = conn.Replace("%CONTENTROOTPATH%", _env.ContentRootPath);
