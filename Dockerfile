@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Copy project files
 COPY MvcWebApplication/*.csproj ./MvcWebApplication/
-RUN dotnet restore ./MvcWebApplication/MvcWebApplication.cspro
+RUN dotnet restore ./MvcWebApplication/MvcWebApplication.csproj
 
 # Copy everything and build
 COPY . . 
