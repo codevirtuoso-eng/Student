@@ -5,6 +5,9 @@ services:
     rootDir: .
     dockerfilePath: ./Dockerfile.api
     plan: free
+    envVars:
+      - key: DATABASE_URL
+        value: YOUR_DATABASE_CONNECTION_STRING_HERE
 
   - type: web
     name: student-frontend
