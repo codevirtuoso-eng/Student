@@ -18,4 +18,4 @@ COPY --from=build /out .
 
 # Set environment variable and entry point
 ENV ASPNETCORE_URLS=http://+:${PORT}
-ENTRYPOINT ["dotnet", "Student.dll"]
+ENTRYPOINT ["dotnet", "/out/MvcWebApplication.dll"]
