@@ -3,8 +3,8 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
 # Copy project files
-COPY Student/*.csproj ./Student/
-RUN dotnet restore ./Student/Student.csproj
+COPY MvcWebApplication/*.csproj ./MvcWebApplication/
+RUN dotnet restore ./MvcWebApplication/MvcWebApplication.cspro
 
 # Copy everything and build
 COPY . . 
