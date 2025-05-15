@@ -5,6 +5,9 @@ services:
     rootDir: .
     dockerfilePath: ./Dockerfile.api
     plan: free
+    envVars:
+      - key: DATABASE_URL
+        value: YOUR_DATABASE_CONNECTION_STRING_HERE
 
   - type: web
     name: student-frontend
@@ -12,3 +15,6 @@ services:
     rootDir: .
     dockerfilePath: ./Dockerfile.frontend
     plan: free
+    envVars:
+  - key: DATABASE_URL
+    value: Host=dpg-d0j3irali9vc73b9dii0-a;Port=5432;Database=student_trpf;Username=student_trpf_user;Password=yaWGukH0AX8wb6s66E0mJs7IUuna7bzk
