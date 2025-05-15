@@ -7,9 +7,9 @@ COPY MvcWebApplication/*.csproj ./MvcWebApplication/
 RUN dotnet restore ./MvcWebApplication/MvcWebApplication.csproj
 
 # Copy everything and build
-COPY . . 
-WORKDIR /app/Student
-RUN dotnet publish -c Release -o /out
+COPY . .
+WORKDIR /app/MvcWebApplication
+RUN dotnet publish -c Release -o /out MvcWebApplication.csproj
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
