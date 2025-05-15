@@ -7,6 +7,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using WebAppAPI.ApiFunctions;
+using System.Linq;
 
 namespace WebAppAPI.Controllers
 {
